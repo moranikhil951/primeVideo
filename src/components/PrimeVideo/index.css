@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.Prime-container {
+  min-height: 100vh;
+  padding-bottom: 30px;
+  background-color: #000000;
+}
+
+.responsive-container {
+}
+
+.movies-container {
+  width: 90%;
+  margin: auto;
+}
+.prime-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-container {
+    max-width: 1110px;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+}
